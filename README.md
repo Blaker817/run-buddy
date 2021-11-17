@@ -13,3 +13,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Blake Elliott]
+
+# Run Buddy Inc.
