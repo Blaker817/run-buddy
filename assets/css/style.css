@@ -10,7 +10,6 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -252,7 +251,6 @@ background-position: 80%
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid var(--tertiary-color);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -290,23 +288,6 @@ max-width: 100%;
   font-size: 26px;
   line-height: 1.5;
   color: var(--secondary-color);
-}
-
-
-.section-title {
-  font-size: 48px;
-  color: var(--secondary-color);
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin: 0 auto 35px auto;
-  width: 50%;
-}
-.primary-border {
-  border-color: var(--primary-color);
-}
-.secondary-border {
-  border-color: var(--tertiary-color);
 }
 .trainers {
   width: 100%;
@@ -417,6 +398,18 @@ contact-info div {
 .contact-form button:hover {
   color: var(--primary-color);
   background: var(--tertiary-color);
+}
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
